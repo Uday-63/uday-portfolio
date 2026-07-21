@@ -1,6 +1,9 @@
-console.log("Portfolio Loaded Successfully");
-
-// simple welcome alert
-window.onload = function() {
-    alert("Welcome to Uday Portfolio 🚀");
-};
+// Simple scroll animation
+document.querySelectorAll('nav a').forEach(anchor => {
+  anchor.addEventListener('click', function(e) {
+    e.preventDefault();
+    document.querySelector(this.getAttribute('href')).scrollIntoView({
+      behavior: 'smooth'
+    });
+  });
+});
