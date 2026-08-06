@@ -1,79 +1,511 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Uday Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+
+```
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Uday Pitala | AWS DevOps Engineer</title>
+
+<link rel="stylesheet" href="style.css">
+```
+
 </head>
+
 <body>
-  <header>
-    <div class="profile">
-      <img src="photo.jpg" alt="Uday Photo" class="profile-pic">
-      <h1>Uday Pitala</h1>
-      <h3>AWS DevOps Engineer</h3>
+
+```
+<!-- =========================
+     1. WELCOME PAGE
+========================== -->
+
+<section id="welcome">
+
+    <div class="welcome-content">
+
+        <p class="welcome-small">
+            WELCOME TO MY PORTFOLIO
+        </p>
+
+        <h1>
+            Hi, I'm <span>Uday Pitala</span>
+        </h1>
+
+        <h2>
+            AWS DevOps Engineer
+        </h2>
+
+        <p>
+            AWS | DevOps | Jenkins | Docker |
+            Kubernetes | Terraform
+        </p>
+
+        <!-- Click this button to open portfolio -->
+
+        <a href="#portfolio" class="resume-button">
+            View My Resume
+        </a>
+
     </div>
-  </header>
 
-  <nav>
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-
-  <section id="about">
-    <h2>About Me</h2>
-    <p>AWS DevOps Engineer with 3 years of experience in CI/CD, Kubernetes, Terraform, and cloud automation.</p>
-  </section>
-
-  <section id="skills">
-    <h2>Technical Skills</h2>
-    <ul>
-      <li>AWS (EC2, S3, VPC, IAM, RDS, EKS)</li>
-      <li>CI/CD (Jenkins, Git, SonarQube)</li>
-      <li>Containers (Docker, Kubernetes)</li>
-      <li>IaC (Terraform, CloudFormation, Ansible)</li>
-    </ul>
-  </section>
-
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project-card">
-      <h3>Online Vehicle Auction</h3>
-      <p>Built CI/CD pipelines, automated deployments, and managed Kubernetes workloads for Copart, Inc.</p>
-    </div>
-  </section>
-
-    <section id="roles">
-  <h2>Roles & Responsibilities</h2>
-  <ul>
-    <li>Managed Git repositories and branching strategies for 20+ developers, reducing merge conflicts by 30%.</li>
-    <li>Built and maintained Jenkins CI/CD pipelines, cutting deployment time from 2 hours to 20 minutes.</li>
-    <li>Containerized applications using Docker and deployed on Kubernetes/EKS for consistent environments.</li>
-    <li>Automated server provisioning and deployments with Ansible, reducing manual work by 70%.</li>
-    <li>Provisioned AWS infrastructure (EC2, S3, IAM, RDS, VPC, EKS) for highly available workloads.</li>
-    <li>Implemented Infrastructure as Code using Terraform and CloudFormation for repeatable deployments.</li>
-    <li>Configured monitoring with Prometheus, Grafana, and CloudWatch to improve incident detection.</li>
-    <li>Performed root cause analysis and resolved production issues, maintaining 99.9% uptime.</li>
-    <li>Optimized AWS resource utilization, reducing monthly cloud costs by ~20%.</li>
-    <li>Collaborated with Agile/Scrum teams to deliver faster and more reliable releases.</li>
-  </ul>
 </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:Uday.awsdevops02@gmail.com">Uday.awsdevops02@gmail.com</a></p>
-    <p>Phone: <a href="tel:9390261126">9390261126</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/Udaypitala2002" target="_blank">linkedin.com/in/Udaypitala2002</a></p>
-  </section>
 
-  <footer>
-    <p>© 2026 Uday Pitala | AWS DevOps Engineer</p>
-  </footer>
 
-  <script src="script.js"></script>
+<!-- =========================
+     2. MAIN PORTFOLIO
+========================== -->
+
+<div id="portfolio">
+
+
+    <!-- =========================
+         HEADER / PROFILE
+    ========================== -->
+
+    <header>
+
+        <img
+            src="photo.jpg"
+            alt="Uday Pitala"
+            class="profile-pic"
+        >
+
+        <h1>
+            Uday Pitala
+        </h1>
+
+        <h2>
+            AWS DevOps Engineer
+        </h2>
+
+        <p>
+            3+ Years Experience | Cloud | CI/CD | Automation
+        </p>
+
+    </header>
+
+
+
+    <!-- =========================
+         NAVIGATION MENU
+    ========================== -->
+
+    <nav>
+
+        <a href="#about">About</a>
+
+        <a href="#skills">Skills</a>
+
+        <a href="#experience">Experience</a>
+
+        <a href="#projects">Projects</a>
+
+        <a href="#roles">Responsibilities</a>
+
+        <a href="#contact">Contact</a>
+
+    </nav>
+
+
+
+    <!-- =========================
+         ABOUT ME
+    ========================== -->
+
+    <section id="about" class="card">
+
+        <h2>
+            About Me
+        </h2>
+
+        <p>
+            AWS DevOps Engineer with 3+ years of
+            experience in cloud infrastructure,
+            CI/CD automation, containerization,
+            and Infrastructure as Code.
+        </p>
+
+        <p>
+            Experienced in AWS, Jenkins, Docker,
+            Kubernetes, Terraform, Ansible,
+            Git, and monitoring tools.
+        </p>
+
+    </section>
+
+
+
+    <!-- =========================
+         TECHNICAL SKILLS
+    ========================== -->
+
+    <section id="skills" class="card">
+
+        <h2>
+            Technical Skills
+        </h2>
+
+
+        <div class="skills">
+
+
+            <!-- AWS -->
+
+            <div class="skill-box">
+
+                <h3>AWS</h3>
+
+                <p>
+                    EC2, S3, VPC, IAM, RDS,
+                    EKS, CloudWatch,
+                    Route 53
+                </p>
+
+            </div>
+
+
+            <!-- CI/CD -->
+
+            <div class="skill-box">
+
+                <h3>CI/CD</h3>
+
+                <p>
+                    Jenkins, Git, GitHub,
+                    SonarQube
+                </p>
+
+            </div>
+
+
+            <!-- Containers -->
+
+            <div class="skill-box">
+
+                <h3>Containers</h3>
+
+                <p>
+                    Docker, Kubernetes,
+                    Amazon EKS
+                </p>
+
+            </div>
+
+
+            <!-- Infrastructure -->
+
+            <div class="skill-box">
+
+                <h3>Infrastructure as Code</h3>
+
+                <p>
+                    Terraform,
+                    CloudFormation,
+                    Ansible
+                </p>
+
+            </div>
+
+
+            <!-- Monitoring -->
+
+            <div class="skill-box">
+
+                <h3>Monitoring</h3>
+
+                <p>
+                    Prometheus,
+                    Grafana,
+                    CloudWatch
+                </p>
+
+            </div>
+
+
+            <!-- Linux -->
+
+            <div class="skill-box">
+
+                <h3>Operating System</h3>
+
+                <p>
+                    Linux,
+                    Amazon Linux,
+                    Shell Scripting
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         EXPERIENCE
+    ========================== -->
+
+    <section id="experience" class="card">
+
+        <h2>
+            Professional Experience
+        </h2>
+
+        <div class="experience">
+
+            <h3>
+                AWS DevOps Engineer
+            </h3>
+
+            <p class="duration">
+                3+ Years Experience
+            </p>
+
+            <ul>
+
+                <li>
+                    Built and maintained Jenkins
+                    CI/CD pipelines.
+                </li>
+
+                <li>
+                    Managed Git repositories
+                    and branching strategies.
+                </li>
+
+                <li>
+                    Containerized applications
+                    using Docker.
+                </li>
+
+                <li>
+                    Deployed applications using
+                    Kubernetes and Amazon EKS.
+                </li>
+
+                <li>
+                    Automated infrastructure using
+                    Terraform and CloudFormation.
+                </li>
+
+                <li>
+                    Managed AWS services including
+                    EC2, S3, VPC, IAM and RDS.
+                </li>
+
+            </ul>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         PROJECTS
+    ========================== -->
+
+    <section id="projects" class="card">
+
+        <h2>
+            Projects
+        </h2>
+
+
+        <div class="project">
+
+            <h3>
+                Online Vehicle Auction
+            </h3>
+
+            <p>
+                DevOps automation and cloud
+                infrastructure project.
+            </p>
+
+
+            <h4>
+                Technologies Used
+            </h4>
+
+            <p>
+                AWS | Jenkins | Docker |
+                Kubernetes | Terraform | Git
+            </p>
+
+
+            <h4>
+                Responsibilities
+            </h4>
+
+            <ul>
+
+                <li>
+                    Created CI/CD pipelines
+                    using Jenkins.
+                </li>
+
+                <li>
+                    Built Docker images
+                    for applications.
+                </li>
+
+                <li>
+                    Deployed containers on
+                    Kubernetes/EKS.
+                </li>
+
+                <li>
+                    Automated AWS infrastructure
+                    using Terraform.
+                </li>
+
+                <li>
+                    Configured monitoring and
+                    application logs.
+                </li>
+
+            </ul>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         ROLES & RESPONSIBILITIES
+    ========================== -->
+
+    <section id="roles" class="card">
+
+        <h2>
+            Roles & Responsibilities
+        </h2>
+
+        <ul>
+
+            <li>
+                Managed Git repositories and
+                branching strategies.
+            </li>
+
+            <li>
+                Built Jenkins CI/CD pipelines
+                for automated deployments.
+            </li>
+
+            <li>
+                Containerized applications
+                using Docker.
+            </li>
+
+            <li>
+                Deployed applications on
+                Kubernetes/EKS.
+            </li>
+
+            <li>
+                Automated server provisioning
+                using Ansible.
+            </li>
+
+            <li>
+                Provisioned AWS infrastructure
+                using Terraform.
+            </li>
+
+            <li>
+                Managed EC2, S3, VPC, IAM,
+                RDS and EKS.
+            </li>
+
+            <li>
+                Configured Prometheus, Grafana
+                and CloudWatch monitoring.
+            </li>
+
+            <li>
+                Performed production issue
+                troubleshooting and RCA.
+            </li>
+
+            <li>
+                Worked with Agile/Scrum teams
+                for application releases.
+            </li>
+
+        </ul>
+
+    </section>
+
+
+
+    <!-- =========================
+         CONTACT
+    ========================== -->
+
+    <section id="contact" class="card">
+
+        <h2>
+            Contact Me
+        </h2>
+
+        <p>
+            Email:
+            <a href="mailto:Uday.awsdevops02@gmail.com">
+                Uday.awsdevops02@gmail.com
+            </a>
+        </p>
+
+        <p>
+            Phone:
+            <a href="tel:9390261126">
+                9390261126
+            </a>
+        </p>
+
+        <p>
+            LinkedIn:
+            <a
+                href="https://www.linkedin.com/in/Udaypitala2002"
+                target="_blank"
+            >
+                LinkedIn Profile
+            </a>
+        </p>
+
+    </section>
+
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <p>
+            © 2026 Uday Pitala
+        </p>
+
+        <p>
+            AWS DevOps Engineer
+        </p>
+
+    </footer>
+
+
+</div>
+```
+
 </body>
+
 </html>
